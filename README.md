@@ -306,10 +306,4 @@ Finalmente, se organizó la documentación del proyecto para describir su estruc
 2. PHP. (s. f.). *PHP Manual*. https://www.php.net/docs.php
 3. GitHub. (s. f.). *GitHub Docs*. https://docs.github.com/
 
-## 13. Datos académicos
 
-- **Estudiante:** [Escribir nombre completo]
-- **Asignatura:** [Escribir nombre de la asignatura]
-- **Docente:** [Escribir nombre del docente]
-- **Institución:** [Escribir nombre de la institución]
-- **Fecha de entrega:** [Escribir fecha de entrega]
