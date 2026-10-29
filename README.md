@@ -7,7 +7,7 @@
 
 <img src="https://raw.githubusercontent.com/laravel/art/master/laravel-logo.png" alt="Laravel" width="260">
 
-# 🌸 Laboratorio #2: Implementación del Login y Register en Laravel
+#  Laboratorio #2: Implementación del Login y Register en Laravel
 
 **Documentación del laboratorio paso a paso**
 
