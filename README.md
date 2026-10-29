@@ -1,51 +1,42 @@
- <div align="center">
-
 # UNIVERSIDAD TECNOLÓGICA DE PANAMÁ
 
 ### FACULTAD DE INGENIERÍA DE SISTEMAS COMPUTACIONALES
-
 ### CAMPUS VÍCTOR LEVIS SASSO
 
-<br>
+<div align="center">
 
 <img src="https://raw.githubusercontent.com/laravel/art/master/laravel-logo.png" alt="Laravel" width="260">
 
-<br><br>
-
 # 🌸 Laboratorio #2: Implementación del Login y Register en Laravel
 
----
+**Documentación del laboratorio paso a paso**
 
-### Documentación del laboratorio paso a paso
-
-<br>
+</div>
 
 | **Datos** | **Información** |
-|:---|:---|
+|---|---|
 | **Curso** | Desarrollo Web |
 | **Instructor** | Ing. Irina Fong |
 | **Unidad I** | Modelo Vista Controlador (MVC) |
 | **Semestre** | II Semestre 2026 |
 | **Estudiante** | Adriana Mendoza |
 
-</div>
-
 ---
 
 ## 📑 Índice
 
-1. [Introducción y objetivo](#-introducción-y-objetivo)
-2. [Tecnologías utilizadas](#-tecnologías-utilizadas)
-3. [Fase 1: Entorno de desarrollo](#-fase-1-entorno-de-desarrollo)
-4. [Fase 2: Proyecto Laravel](#-fase-2-proyecto-laravel)
-5. [Fase 3: Configuración de la base de datos](#-fase-3-configuración-de-la-base-de-datos)
-6. [Fase 4: Implementación del login y registro](#-fase-4-implementación-del-login-y-registro)
-7. [Fase 5: Personalización de las vistas](#-fase-5-personalización-de-las-vistas)
-8. [Fase 6: Pruebas de funcionamiento](#-fase-6-pruebas-de-funcionamiento)
-9. [Fase 7: GitHub](#-fase-7-github)
-10. [Errores comunes](#-errores-comunes)
-11. [Conclusión](#-conclusión)
-12. [Referencias](#-referencias)
+1. [Introducción y objetivo](#introducción-y-objetivo)
+2. [Tecnologías utilizadas](#tecnologías-utilizadas)
+3. [Fase 1: Entorno de desarrollo](#fase-1-entorno-de-desarrollo)
+4. [Fase 2: Proyecto Laravel](#fase-2-proyecto-laravel)
+5. [Fase 3: Configuración de la base de datos](#fase-3-configuración-de-la-base-de-datos)
+6. [Fase 4: Implementación del login y registro](#fase-4-implementación-del-login-y-registro)
+7. [Fase 5: Personalización de las vistas](#fase-5-personalización-de-las-vistas)
+8. [Fase 6: Pruebas de funcionamiento](#fase-6-pruebas-de-funcionamiento)
+9. [Fase 7: GitHub](#fase-7-github)
+10. [Errores comunes](#errores-comunes)
+11. [Conclusión](#conclusión)
+12. [Referencias](#referencias)
 
 ---
 
@@ -85,12 +76,6 @@ Se utilizó WampServer como entorno de desarrollo local en Windows. Esta herrami
 
 El proyecto se encuentra dentro de la carpeta `www`, que forma parte del directorio de instalación de WampServer.
 
-**Evidencia:**
-
-*Figura 1: Entorno de desarrollo WampServer instalado en Windows.*
-
-📷 **Captura 1:** Colocar una imagen de WampServer en la computadora.
-
 ### ⚙️ Paso 2: Verificación de PHP
 
 Se comprobó que PHP estuviera disponible desde la terminal, ya que Laravel necesita este lenguaje para ejecutar sus comandos y procesar las solicitudes de la aplicación.
@@ -105,9 +90,9 @@ Este comando muestra la versión de PHP disponible en el sistema.
 
 **Evidencia:**
 
-*Figura 2: Verificación de la versión de PHP desde la terminal.*
+<img width="902" alt="Verificación de PHP" src="https://github.com/user-attachments/assets/6b22d2ec-c121-4e2f-8235-cfc0f97ed74b" />
 
-📷 **Captura 2:** Colocar una imagen del resultado de `php -v`.
+*Figura 1. Verificación de la versión de PHP desde la terminal.*
 
 ### 📦 Paso 3: Verificación de Composer
 
@@ -121,9 +106,9 @@ composer -V
 
 **Evidencia:**
 
-*Figura 3: Comprobación de Composer desde la terminal.*
+<img width="1023" alt="Verificación de Composer" src="https://github.com/user-attachments/assets/4dc46bf5-6098-4f99-a8f7-9da318f56b19" />
 
-📷 **Captura 3:** Colocar una imagen del resultado de `composer -V`.
+*Figura 2. Comprobación de Composer desde la terminal.*
 
 ### 🟢 Paso 4: Verificación de Node.js y npm
 
@@ -140,9 +125,9 @@ En el entorno utilizado se identificó Node.js versión `v24.21.0` y npm versió
 
 **Evidencia:**
 
-*Figura 4: Verificación de las versiones de Node.js y npm.*
+<img width="282" alt="Versiones de Node.js y npm" src="https://github.com/user-attachments/assets/4b43b39c-00d9-4bf4-bdf9-be8b0f5f16bb" />
 
-📷 **Captura 4:** Colocar una imagen de los resultados de ambos comandos.
+*Figura 3. Verificación de las versiones de Node.js y npm.*
 
 ## 🚀 Fase 2: Proyecto Laravel
 
@@ -162,12 +147,6 @@ Para ingresar a la carpeta desde una terminal, se utiliza:
 cd C:\wamp64\www\LabLaravel
 ```
 
-**Evidencia:**
-
-*Figura 5: Ubicación de la carpeta LabLaravel dentro de WampServer.*
-
-📷 **Captura 5:** Colocar una imagen de la carpeta `LabLaravel` abierta en el Explorador de archivos o Visual Studio Code.
-
 ### 🔍 Paso 6: Verificación de la versión de Laravel
 
 Una vez dentro de la carpeta del proyecto, se ejecutó el siguiente comando:
@@ -186,9 +165,9 @@ Esto confirmó que el proyecto utiliza Laravel 13.35.0 y que Artisan está dispo
 
 **Evidencia:**
 
-*Figura 6: Verificación de la versión de Laravel instalada.*
+<img width="578" alt="Versión de Laravel" src="https://github.com/user-attachments/assets/9429b9d8-5b89-4b90-b80d-00a972f770df" />
 
-📷 **Captura 6:** Colocar una imagen del resultado de `php artisan --version`.
+*Figura 4. Verificación de la versión de Laravel instalada.*
 
 ### 🧱 Paso 7: Reconocimiento de la estructura del proyecto
 
@@ -208,15 +187,15 @@ Se identificaron las carpetas principales de Laravel para comprender cómo se or
 
 **Evidencia:**
 
-*Figura 7: Estructura de carpetas del proyecto Laravel en Visual Studio Code.*
+<img width="817" alt="Estructura del proyecto Laravel" src="https://github.com/user-attachments/assets/fe48e0bb-defe-4fd6-9b63-2af5453386ee" />
 
-📷 **Captura 7:** Colocar una imagen del Explorador de archivos de Visual Studio Code mostrando las carpetas principales.
+*Figura 5. Estructura de carpetas del proyecto Laravel.*
 
 ## 💾 Fase 3: Configuración de la base de datos
 
 ### 🗄️ Paso 8: Acceso a phpMyAdmin
 
-Se utilizó phpMyAdmin para administrar MySQL y consultar las tablas de la base de datos.
+Se utilizó phpMyAdmin como herramienta para administrar MySQL y consultar las tablas de la base de datos.
 
 En un entorno local donde WampServer esté configurado correctamente, se puede acceder mediante:
 
@@ -228,9 +207,9 @@ Desde esta herramienta es posible consultar las bases de datos, revisar las tabl
 
 **Evidencia:**
 
-*Figura 8: Acceso a phpMyAdmin para administrar MySQL.*
+<img width="797" alt="Acceso a phpMyAdmin" src="https://github.com/user-attachments/assets/8e980524-c5dc-482f-8c2c-d32acef048f5" />
 
-📷 **Captura 8:** Colocar una imagen de phpMyAdmin abierto en el navegador.
+*Figura 6. Acceso a phpMyAdmin para administrar MySQL.*
 
 ### 📝 Paso 9: Configuración del archivo `.env`
 
@@ -255,9 +234,9 @@ El archivo `.env` contiene información de configuración y no debe publicarse c
 
 **Evidencia:**
 
-*Figura 9: Configuración de las variables de conexión a MySQL en el archivo `.env`.*
+<img width="627" alt="Configuración del archivo env" src="https://github.com/user-attachments/assets/f986c9d7-d609-4990-906f-b77de8a6313f" />
 
-📷 **Captura 9:** Colocar una imagen de las variables de conexión, ocultando cualquier contraseña o dato privado.
+*Figura 7. Configuración de las variables de conexión a MySQL en el archivo `.env`.*
 
 ### 🔄 Paso 10: Verificación de las migraciones
 
@@ -273,9 +252,9 @@ En el proyecto se comprobó que las migraciones correspondientes a usuarios, cac
 
 **Evidencia:**
 
-*Figura 10: Estado de las migraciones de la base de datos.*
+<img width="1436" alt="Estado de las migraciones" src="https://github.com/user-attachments/assets/a8177bc2-2b2f-4877-8b26-079e622a3cc2" />
 
-📷 **Captura 10:** Colocar una imagen del resultado de `php artisan migrate:status`.
+*Figura 8. Estado de las migraciones de la base de datos.*
 
 ## 🔑 Fase 4: Implementación del login y registro
 
@@ -291,13 +270,13 @@ Las vistas de autenticación se encuentran organizadas dentro de:
 resources/views/auth/
 ```
 
-En esta carpeta se pueden encontrar las plantillas Blade relacionadas con la autenticación, según los archivos que estén presentes en el proyecto.
+En esta carpeta se pueden encontrar las plantillas Blade relacionadas con la autenticación, según los archivos presentes en el proyecto.
 
 **Evidencia:**
 
-*Figura 11: Archivos de las vistas de autenticación en Laravel.*
+<img width="222" alt="Archivos de autenticación" src="https://github.com/user-attachments/assets/f25967c3-7009-4cc6-8d26-61d8e9a5a41d" />
 
-📷 **Captura 11:** Colocar una imagen de la carpeta `resources/views/auth/` abierta en Visual Studio Code.
+*Figura 9. Archivos de las vistas de autenticación en Laravel.*
 
 ### 📝 Paso 12: Formulario de registro
 
@@ -313,9 +292,9 @@ Esta dirección funciona cuando el servidor de desarrollo de Laravel está ejecu
 
 **Evidencia:**
 
-*Figura 12: Formulario de registro de usuarios.*
+<img width="1823" alt="Formulario de registro" src="https://github.com/user-attachments/assets/688f6dc9-2420-4998-89dc-348e884f67a8" />
 
-📷 **Captura 12:** Colocar una imagen del formulario de registro abierto en el navegador.
+*Figura 10. Formulario de registro de usuarios.*
 
 ### 🔓 Paso 13: Formulario de inicio de sesión
 
@@ -331,9 +310,9 @@ El formulario debe permitir introducir las credenciales solicitadas por el siste
 
 **Evidencia:**
 
-*Figura 13: Formulario de inicio de sesión de Laravel.*
+<img width="1797" alt="Formulario de inicio de sesión" src="https://github.com/user-attachments/assets/6bf3da20-6914-48b4-8bc1-25985860225c" />
 
-📷 **Captura 13:** Colocar una imagen del formulario de login abierto en el navegador.
+*Figura 11. Formulario de inicio de sesión de Laravel.*
 
 ### 🧬 Paso 14: Modelo de usuario
 
@@ -349,9 +328,9 @@ Este modelo forma parte del componente Modelo del patrón MVC.
 
 **Evidencia:**
 
-*Figura 14: Archivo User.php dentro de la carpeta de modelos.*
+<img width="205" alt="Modelo User" src="https://github.com/user-attachments/assets/cbb72bee-44b3-4671-8e6e-378a2bafc60e" />
 
-📷 **Captura 14:** Colocar una imagen del archivo `User.php` abierto en Visual Studio Code.
+*Figura 12. Archivo `User.php` dentro de la carpeta de modelos.*
 
 ### ⚙️ Paso 15: Controladores y rutas
 
@@ -373,9 +352,9 @@ Esta separación permite organizar el código y mantener las vistas independient
 
 **Evidencia:**
 
-*Figura 15: Archivos de rutas y controladores del proyecto Laravel.*
+<img width="198" alt="Rutas y controladores" src="https://github.com/user-attachments/assets/42e30190-7bb5-4098-aa24-fb7e2de03f05" />
 
-📷 **Captura 15:** Colocar una imagen de `routes/web.php` y de la carpeta de controladores.
+*Figura 13. Archivos de rutas y controladores del proyecto Laravel.*
 
 ## 🎨 Fase 5: Personalización de las vistas
 
@@ -389,9 +368,9 @@ El objetivo es mejorar la presentación de los formularios sin perder su funció
 
 **Evidencia:**
 
-*Figura 16: Modificaciones de los archivos de diseño de la aplicación.*
+<img width="882" alt="Modificación del diseño" src="https://github.com/user-attachments/assets/e6bfb2f1-fe3a-477c-ad64-893ed2fe45e9" />
 
-📷 **Captura 16:** Colocar una imagen del código HTML, Blade o CSS que se modificó para personalizar el diseño.
+*Figura 14. Modificaciones de los archivos de diseño de la aplicación.*
 
 ### 🧩 Paso 17: Personalización de las vistas Blade
 
@@ -411,9 +390,9 @@ La presencia de cada archivo depende de la estructura concreta del proyecto.
 
 **Evidencia:**
 
-*Figura 17: Organización de las vistas Blade utilizadas en la autenticación.*
+<img width="222" alt="Vistas Blade de autenticación" src="https://github.com/user-attachments/assets/16f13a20-b6f6-484d-bce5-27ff4883552a" />
 
-📷 **Captura 17:** Colocar una imagen de las vistas y carpetas que se modificaron.
+*Figura 15. Organización de las vistas Blade utilizadas en la autenticación.*
 
 ### 🎨 Paso 18: Ajustes de estilos
 
@@ -430,27 +409,11 @@ resources/js/
 
 La ubicación y la forma de cargar los estilos dependen de la configuración del proyecto.
 
-**Evidencia:**
-
-*Figura 18: Archivos de estilos utilizados para personalizar la interfaz.*
-
-📷 **Captura 18:** Colocar una imagen de los archivos CSS o de los recursos frontend modificados.
-
 ### 🖥️ Paso 19: Resultado visual de las páginas
 
-Una vez aplicados los cambios, se revisaron las páginas en el navegador para comprobar la apariencia de los formularios.
+Una vez aplicados los cambios, se revisaron las páginas en el navegador para comprobar la apariencia de los formularios. Se buscó mantener una presentación coherente entre el inicio de sesión y el registro.
 
-Se buscó mantener una presentación coherente entre el inicio de sesión y el registro.
-
-**Evidencia:**
-
-*Figura 19: Resultado visual de la página de inicio de sesión personalizada.*
-
-📷 **Captura 19:** Colocar una imagen del login con el diseño final.
-
-*Figura 20: Resultado visual de la página de registro personalizada.*
-
-📷 **Captura 20:** Colocar una imagen del registro con el diseño final.
+**Nota:** las capturas finales del login y del registro no se incluyen en esta versión del documento.
 
 ## 🧪 Fase 6: Pruebas de funcionamiento
 
@@ -466,13 +429,7 @@ php artisan serve
 
 Cuando el servidor inicia correctamente, la terminal muestra la dirección local en la que se puede abrir la aplicación.
 
-**Nota:** Si utilizas otro comando para iniciar Laravel y Vite, debes mantener abierta la terminal correspondiente mientras pruebas el proyecto.
-
-**Evidencia:**
-
-*Figura 21: Inicio del servidor de desarrollo de Laravel.*
-
-📷 **Captura 21:** Colocar una imagen de la terminal mostrando el servidor en ejecución.
+**Nota:** si utilizas otro comando para iniciar Laravel y Vite, debes mantener abierta la terminal correspondiente mientras pruebas el proyecto.
 
 ### 🌐 Paso 21: Acceso a las páginas desde el navegador
 
@@ -487,23 +444,13 @@ http://127.0.0.1:8000/register
 
 Estas rutas permiten comprobar que los formularios estén disponibles en el navegador.
 
-**Evidencia:**
-
-*Figura 22: Acceso a la aplicación Laravel desde el navegador.*
-
-📷 **Captura 22:** Colocar una imagen de la aplicación ejecutándose localmente.
-
 ### 🔍 Paso 22: Comprobación de la base de datos
 
 Se revisó el estado de las migraciones mediante Artisan y se utilizó phpMyAdmin para consultar la base de datos.
 
 La tabla `users` es utilizada normalmente por Laravel para almacenar la información de los usuarios, de acuerdo con la configuración del modelo y del sistema de autenticación.
 
-**Evidencia:**
-
-*Figura 23: Consulta de la tabla users en phpMyAdmin.*
-
-📷 **Captura 23:** Colocar una imagen de la tabla `users`, ocultando los datos personales que no sea necesario mostrar.
+**Nota:** no se incluye una captura de la tabla `users` en esta versión del documento.
 
 ## 🐙 Fase 7: GitHub
 
@@ -521,12 +468,6 @@ C:\wamp64\www\LabLaravel
 
 Antes de publicar los archivos, es importante comprobar que el repositorio corresponda a la carpeta correcta.
 
-**Evidencia:**
-
-*Figura 24: Proyecto LabLaravel ubicado en su carpeta local.*
-
-📷 **Captura 24:** Colocar una imagen de la carpeta del proyecto o de su configuración en GitHub Desktop.
-
 ### 📂 Paso 24: Revisión de los archivos
 
 En GitHub Desktop se revisan los archivos detectados como nuevos o modificados.
@@ -534,12 +475,6 @@ En GitHub Desktop se revisan los archivos detectados como nuevos o modificados.
 Antes de realizar un commit, se debe verificar que los cambios correspondan al proyecto y que no se incluyan archivos con contraseñas o credenciales privadas.
 
 El archivo `.env` debe permanecer fuera del repositorio público cuando contiene información sensible. También se debe revisar el archivo `.gitignore`.
-
-**Evidencia:**
-
-*Figura 25: Revisión de los archivos modificados en GitHub Desktop.*
-
-📷 **Captura 25:** Colocar una imagen de la lista de cambios del repositorio.
 
 ### 📤 Paso 25: Commit de los cambios
 
@@ -553,25 +488,13 @@ Un ejemplo de mensaje es:
 Laboratorio 2: implementación de login y registro en Laravel
 ```
 
-**Evidencia:**
-
-*Figura 26: Registro del commit del proyecto en GitHub Desktop.*
-
-📷 **Captura 26:** Colocar una imagen del commit creado.
-
 ### 🌐 Paso 26: Publicación del repositorio
 
 Después de revisar los archivos y registrar el commit, se publica el repositorio en GitHub o se suben los cambios al repositorio remoto existente.
 
 Al finalizar, se puede abrir la página del repositorio para verificar que los archivos se encuentren disponibles.
 
-**Evidencia:**
-
-*Figura 27: Repositorio del proyecto publicado en GitHub.*
-
-📷 **Captura 27:** Colocar una imagen del repositorio público con el archivo `README.md` visible.
-
-**Enlace del repositorio:** Agregar aquí la URL real de tu repositorio de GitHub.
+**Enlace del repositorio:** agregar la URL real del repositorio de GitHub.
 
 ## 🚑 Errores comunes
 
